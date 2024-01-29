@@ -1,0 +1,119 @@
+/* NAVBAR */
+
+.navbar {
+    border-bottom: 1px solid #939393 !important;
+    background-color: white !important;
+    position: fixed !important;
+    width: 100%;
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-item a:hover {
+    color: black !important;
+    transition: 0.3s;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #939393 !important;
+}
+
+.collapse {
+    justify-content: right !important;
+    margin-right: 40px !important;
+}
+
+.container-fluid .heading {
+    display: flex;
+    flex-direction: row !important;
+    align-items: end !important;
+    gap: 10px;
+}
+
+.active,
+.active:hover  {
+    color: black !important;
+}
+
+.p-5 {
+    display: block;
+    background-color: rgb(29, 29, 29) !important;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.p-5 .object {
+    display: block;
+}
+
+.p-5 h1 {
+    flex-wrap: wrap;
+    font-weight: 800 !important;
+    color: white !important;
+}
+
+.p-5 h4 {
+    font-weight: 700 !important;
+    color: #616161 !important;
+}
+
+.p-5 .object img {
+    width: 170px;
+    height: 180px;
+    margin-top: 100px;
+}
+
+.p-5 .mb-3 {
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+.link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.link-button a {
+    font-size: 1em !important;
+    padding: 10px 15px;
+    font-weight: 500 !important;
+}
+
+.link-button .btn1 {
+    text-decoration: none;
+    color: white !important;
+    background-color: black !important;
+    border: 1px solid white !important;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.link-button .btn1:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.link-button .btn2 {
+    text-decoration: none;
+    color: white !important;
+    background-color: rgb(99, 17, 251) !important;
+    border: 1px solid rgb(99, 17, 251) !important;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.link-button .btn2:hover {
+    color: rgb(203, 203, 203) !important;
+    background-color: rgb(56, 17, 129) !important;
+    border: 1px solid rgb(56, 17, 129) !important;
+}
