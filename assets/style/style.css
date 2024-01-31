@@ -2,9 +2,10 @@
 
 .navbar {
     border-bottom: 1px solid #939393 !important;
-    background-color: white !important;
+    background-color: #2C2C2C !important;
     position: fixed !important;
     width: 100%;
+    border: none !important;
 }
 
 .navbar img {
@@ -12,18 +13,42 @@
     height: 60px;
 }
 
+.nav-item a {
+    color: #6d6d6d !important;
+    text-align: center !important;
+}
+
 .nav-item a:hover {
-    color: black !important;
-    transition: 0.3s;
+    color: white !important;
+}
+
+.navbar-toggler {
+    color: #6d6d6d !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #6d6d6d !important;
+    padding: 5px 10px !important;
 }
 
 .dropdown-menu .dropdown-item {
-    color: #939393 !important;
+    color: #6d6d6d !important;
+}
+
+.dropdown-menu {
+    background-color: #2C2C2C !important;
+    border: 1px solid #6d6d6d !important;
+    border-radius: none !important;
+}
+
+.dropdown-menu a:hover {
+    transition: none !important;
+    background-color: #FEC700;
+    color: white !important;
 }
 
 .collapse {
     justify-content: right !important;
-    margin-right: 40px !important;
 }
 
 .container-fluid .heading {
@@ -31,6 +56,10 @@
     flex-direction: row !important;
     align-items: end !important;
     gap: 10px;
+}
+
+.navbar-nav .nav-item {
+    justify-content: center !important;
 }
 
 .active,
